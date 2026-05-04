@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("Digite seu nome: ");
 		String nome = scanner.nextLine();
 
-		System.out.println("Bem vindo ao mundo Java, " + nome);
+		System.out.println("Bem vindo ao mundo Java, " + nome + "!");
 
 		scanner.close();
 	}
