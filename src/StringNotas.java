@@ -11,7 +11,7 @@ public class StringNotas {
 		System.out.println("Digite seu nome: ");
 		String nome = scanner.next();
 		System.out.println("Seu nome é: " + nome);
-
+		// Fechamento do recurso 'scanner'.
 		scanner.close();
 
 	}
