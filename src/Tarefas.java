@@ -11,7 +11,7 @@ public class Tarefas {
 
 		// Inicia um loop infinito. O programa rodará até encontrar um comando 'return'
 		while (true) {
-			// Exibição do menu de opções no console
+			// Exibição do menu de opções no console'
 			System.out.println("\nOpções:");
 			System.out.println("1. Cadastrar tarefa");
 			System.out.println("2. Listar tarefas");
