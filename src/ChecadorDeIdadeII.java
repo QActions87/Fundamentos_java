@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ChecadorDeIdadeII {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Digite sua idade: ");
+		int idade = scanner.nextInt();
+
+		if (idade >= 18) {
+			System.out.println("Pode comprar o ingresso!");
+		} else {
+			System.out.println("Este evento é para maiores de 18 anos!");
+		}
+		scanner.close();
+
+	}
+
+}
