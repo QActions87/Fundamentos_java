@@ -17,6 +17,7 @@ public class ChecadorDeNotasII {
 		default -> System.out.println("Nota inválida!");
 		}
 
+		scanner.close();
 	}
 
 }

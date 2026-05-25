@@ -16,7 +16,5 @@ public class ChecadorDeNotas {
 		case "F" -> System.out.println("Precisa estudar mais!");
 		default -> System.out.println("Nota inválida!");
 		}
-
 	}
-
 }
