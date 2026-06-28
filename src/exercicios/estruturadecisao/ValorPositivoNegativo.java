@@ -10,9 +10,11 @@ public class ValorPositivoNegativo {
         int valor = sc.nextInt();
 
         if (valor > 0) {
-            System.out.printf("O valor %d é positivo", valor);
+            System.out.printf("O valor %d é positivo.%n", valor);
+        } else if (valor < 0) {
+            System.out.printf("O valor %d é negativo.%n", valor);
         } else {
-            System.out.printf("O valor %d é negativo", valor);
+            System.out.printf("O valor é zero (neutro).%n");
         }
         sc.close();
     }
