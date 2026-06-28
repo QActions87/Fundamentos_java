@@ -6,7 +6,7 @@ public class ArrayStructure {
 		String[] tarefas = { "Estudar Java", "Fazer Exercícios", "Tomar Café" };
 
 		// Acessar Posições do Array:
-		System.out.println(tarefas[0]);
+		System.out.println(tarefas[0]); 
 		System.out.println(tarefas[1]);
 		System.out.println(tarefas[2]);
 
