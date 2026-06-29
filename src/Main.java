@@ -1,16 +1,16 @@
-import java.util.Scanner;
+import br.com.bb.ContaBancariaBB;
+import br.com.nu.ContaBancariaNu;
 
 public class Main {
+    public static void main (String[] args) {
+        ContaBancariaNu contaNu = new ContaBancariaNu("Udemy");
+        ContaBancariaBB contaBB = new ContaBancariaBB("Udemy");
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+        contaNu.atualizarSaldo(50.0);
+        contaBB.atualizarSaldo(50.0);
+        contaBB.atualizarSaldo(-50.0);
 
-		System.out.println("Digite seu nome: ");
-		String nome = scanner.nextLine();
-
-		System.out.println("Bem vindo ao mundo Java, " + nome);
-
-		scanner.close();
-	}
-
+        System.out.println(contaNu);
+        System.out.println(contaBB);
+    }
 }
