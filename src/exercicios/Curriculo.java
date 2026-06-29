@@ -12,4 +12,3 @@ public class Curriculo {
             return "Olá, eu sou " + nome + ", tenho " + idade + " anos, trabalho com " + Arrays.toString(competencias) + ", e minhas experiências foram " + Arrays.toString(experiencias);
         }
     }
-}
